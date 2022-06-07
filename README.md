@@ -1,4 +1,4 @@
-# HackCreality
+# Polarization Encryption for Privacy Additive Manufacturing
 This project allows for the modification of layer data in .obj slice files for resin 3D printers using Chitubox. The system reads and decomposes the file into the individual slices that correspond to each of the masks that the printer uses to expose each layer and allows for the encryption of an individual layer using AES-128 in counter mode. The user can define the AES key, and the nonce and the AES engine use the layer number as part of the counter to ensure that each layer is uniquely encrypted.
 
 ## USE
